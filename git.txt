@@ -1,5 +1,5 @@
 1. First thing (pull)
-select the Git tab on right
+select the Git tab on left
 in the menu select Pull
 
 2. To save changes locally (commit)
