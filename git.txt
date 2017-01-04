@@ -1,0 +1,11 @@
+1. First thing (pull)
+select the Git tab on right
+in the menu select Pull
+
+2. To save changes locally (commit)
+To let Git know they exist you need to commit them
+Type in a description into the message box and hit CTR+Enter
+
+3. To share changes (sync)
+You must first have them committed
+Select the menu and hit sync
