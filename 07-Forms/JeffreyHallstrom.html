@@ -1,11 +1,38 @@
 <html>
     <head>
         <title>This is our forms page</title>
+        <style>
+            input {
+                width: 100%;
+                padding: 5px;
+                font-size: 18px;
+                  }
+            input:focus{
+                border:12px solid blue;
+             }
+            input[type="email"] {
+                color:green
+            }
+             button {
+                 display: block;
+                 width: 50%;
+                 margin: auto;
+                 padding: 10px;
+                  }
+        </style>
     </head>
     <body>
         <form method="post">
-            <input type="text" />
+           <h1>Email Address</h1>
+             <input type="email" placeholder="Email Address" />
 
+             <br />
+            <h2>Password</h2>
+            <input type="password" placeholder="Password" />
+            
+            <br />
+        <input type="Submit"/>
+           
         </form>
     </body>
 </html>
