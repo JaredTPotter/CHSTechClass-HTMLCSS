@@ -1,12 +1,46 @@
 <html>
     <head>
         <title> Westminster Catechism </title>
+
+        <style>
+        body {
+                background-color: black;
+                background-image: url('WestminsterAssembly.jpg');
+                background-size: 100%;
+                padding:5%;
+                font-family: 'Segoe UI';
+                }
+           input {
+               width: 100%;
+               padding: 5px;
+               font-size: 11px;
+               font-family:'Segoe UI', sans-serif;
+
+           }
+           input:focus {
+               border: 2px solid lightseagreen;
+           }
+           input[type="email"] {
+               color: lightseagreen;
+           }
+           button {
+               display:block;
+               float:right;
+               width:20%;
+               margin: auto;
+               padding: 10px;
+           }
+           button:active {
+               background-color: lightseagreen;
+           }
+        </style>
     </head>
     <body>
+         <p> To return to the catechism, <a href="A Westminster Shorter Catechism.html">click here.</a> </p>
         
         <form method="post">
             <h3> To contact us, enter your e-mail address: </h3>
-            <input type="email" />
+            <input type="email" placeholder="e.g. westminstercatechism@outlook.com" />
 
             <input type="date" />
 
@@ -15,7 +49,7 @@
 
             <button>Westminster</button>
 
-            <input type="submit" />
+        
         </form>
 
     </body>
