@@ -1,16 +1,46 @@
 <html>
     <head>
         <title>my form</title>
+        <style>
+            input{
+                display:block;
+                width: 50%;
+                padding:5px;
+                font-size:18px;
+                margin:auto;
+            }
+
+            input:focus{
+                border: 2px solid red;
+            }
+
+            button{
+                display:block;
+                width: 50%;
+                padding:2px; 
+                font-size:18px;
+                margin:auto;
+            }
+
+            button:active {
+              background-color:red;
+            }
+            input[type="email"]{
+                color: green;
+            }
+        </style>
     </head>
     <body>
-       <form method="post">
-        <input type="text" />
+        <h2>email</h2>
 
+        <input type="email" placeholder="Email Address" />
+        <h2>date</h2>
         <input type="date" />
+         <h2>password</h2>
+        <input type="password" placeholder="Password" />
+        <button>login</button>
 
-        <button>SUBMIT</button>
-
-         <input type="submit" />
+        <input type="submit" />
        </form>
     </body>
 </html>
