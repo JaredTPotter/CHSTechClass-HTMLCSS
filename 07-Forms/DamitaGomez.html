@@ -1,12 +1,54 @@
 <html>
-    <head>
-        <title>Hello</title>
-    </head>
-    <body>
-        <form method="post">
-            <input type="text" />
-            <input type="date" />
-            <button>Submit</button>
-        </form>
-    </body>
+
+<head>
+    <title>Hello</title>
+    <style>
+        input {
+            width: 100%;
+            padding: 5px;
+            background-color: cornflowerblue;
+            font-size: 18px;
+        }
+        
+        input:focus {
+            border: 2px solid darkslateblue;
+        }
+        
+        button {
+            display: block;
+            width: 50%;
+            margin: auto;
+            padding: 10px;
+        }
+        
+        button:active {
+            background-color: red;
+        }
+        
+        input[type="email"] {
+            color: green;
+        }
+        
+        h2 {
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="post">
+        <h2>Email Address</h2>
+        <input type="email" placeholder="Type an email address" required/>
+
+        <br />
+        <h2>Password</h2>
+        <input type="password" placeholder="Me gusta queso" required/>
+        <br />
+        <br />
+        <button>Login</button>
+
+    </form>
+</body>
+
 </html>
