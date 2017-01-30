@@ -3,7 +3,11 @@
 		<title>This is something I think.</title>
 			<style>
 			input {
-				width: 25%;}		
+				width: 45%;
+				margin-left:5%;
+				margin-top:1%;
+				margin-bottom:3%;
+				}		
 			input:focus{
 				border:1 px solid blue;
 				
@@ -14,33 +18,32 @@
 				background-position: 50%,50%;
 			
 			}
-			h2{
-				color: white;
-			}
-			h3{
-
-				color: white;
-			}
 			h4{
-
 				color: white;
+				margin-left:5%;
+				margin-right:5%;
 			}
 			</style>
 	</head>
 	<body>
-		<form method="post">
-				<h2>Name</h2>
-			<input type="text"/>
-				<h3>Date of Birth</h3>
+		<form method="get"
+		action="http://www.theuselessweb.com/">
+			<input type="text"
+			placeholder="Name"/>
+			<br />
+			<h4>Date of Birth</h4>
 			<input type="date"/>
-				
 			<br />	
-				
-				<h3>Email</h3>
-			<input type="email"/>
-				<h4>Password</h4>
-			<input type="password"/>
-			<button>Press for nothing</button>
+			<br />	
+			
+			<input type="email"
+			placeholder="email address"/>
+			<br />
+			<br />
+			<input type="password"
+			placeholder="password"/>
+			<br />
+			<br />
 			<input type="submit"/>
 		</form>
 	</body>
