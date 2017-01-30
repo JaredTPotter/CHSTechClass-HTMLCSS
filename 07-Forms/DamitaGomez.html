@@ -3,7 +3,7 @@
 <head>
     <title>Hello</title>
     <style>
-        input {
+        input.bob {
             width: 100%;
             padding: 5px;
             background-color: cornflowerblue;
@@ -33,20 +33,43 @@
             color: blue;
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        label {
+            color: blue;
+        }
+
+       
     </style>
 </head>
 
 <body>
-    <form method="post">
+    <form method="post" action="http://google.com">
         <h2>Email Address</h2>
-        <input type="email" placeholder="Type an email address" required/>
+        <input class="bob" type="email" placeholder="Type an email address" required/>
 
         <br />
         <h2>Password</h2>
-        <input type="password" placeholder="Me gusta queso" required/>
+        <input class="bob" type="password" placeholder="Me gusta queso" required/>
         <br />
         <br />
+        <label>Do you like ice cream?
+            <br />Yes
+        <input type="checkbox" required />
+        Absolutely
+        <input type="checkbox" required />
+        Why would I say no?
+        <input type="checkbox" required />
+        </label>
+        <br />
+<<<<<<< HEAD
+        <br />
+        
+        <button>Submit</button>
+        <br />
+
+=======
         <button>Login</button>  
+>>>>>>> e6e4d1f0bb73a6474c9b5e853188c348a431f308
 
     </form>
 </body>
