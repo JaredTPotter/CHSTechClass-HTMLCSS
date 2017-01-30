@@ -13,12 +13,15 @@
             margin: auto;
             display: block;
         }
+        
         input:focus {
             border: 15px, solid, red;
         }
+        
         input[type="email"] {
             color: green;
         }
+        
         button {
             width: 60%;
             padding: 10px;
@@ -26,26 +29,22 @@
             display: block;
             border-radius: 4px;
         }
+        
         button:active {
             background-color: blue;
         }
+        
         .small {
             width: 40%;
             padding: 10px;
             margin: auto;
             display: block;
         }
-    
     </style>
 </head>
 
 <body>
     <form method="post">
-<<<<<<< HEAD
-        <input type="text" />
-        <input type="date" />
-        <input type="submit" />
-=======
         <h2>Email Address</h2>
         <input type="email" placeholder="Type an Email address" />
         <br />
@@ -55,10 +54,13 @@
         <h2>Date</h2>
         <input type="date" />
         <br />
->>>>>>> 2c450a4d3215d25cf27f66b966900160a9f1ad75
         <button>Submit</button>
         <br />
-        <label> Favorite ice cream?<input type="checkbox"></label>
+        <h2>Favorite ice cream?</h2>
+        <input type="checkbox" />Vanilla
+        <input type="checkbox" />Chocolate
+        <input type="checkbox" />Other
+        <br />
         <button class="small">Slap that button</button>
     </form>
 </body>
