@@ -8,13 +8,7 @@
 				padding: 5px;
 				font-size: 18px;
 			}
-			button {
-				display: block;
-				width: 50%;
-				margin: auto;
-				padding: 5px
-		
-			}
+			
 			input[type="email"]{
 				color: green
 			}
@@ -31,7 +25,7 @@
     </head>
     <body>
         
-		<form method="post">
+		<form method="post" action="http://google.com">
 			<h2>Email Adress</h2>
 			<input type="email" placeholder="Type an Email Adress" required/>
 			
@@ -43,7 +37,14 @@
 			<br />
 			<br />
 			<button>Login</button>
-
+			<br />
+			<br />
+			<label>Check this box
+				<input type="checkbox"	 />
+			</label>
+			<label>Are you a junior or senior
+				<input type="radio"/>
+			</label>
 		</form>
     </body>
 </html>
