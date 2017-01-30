@@ -1,13 +1,58 @@
 <html>
+
     <head>
+
         <title>Kailey's Forms</title>
+
+        <style>
+            h2 {
+                color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: 3;
+                text-align: center;
+            }
+            input {
+                width: 100%;
+                padding: 5px; 
+                border-radius: 10px;
+                background-color: lightblue;
+            }
+            input:focus {
+                border: 1px solid aqua; 
+            }
+            button {
+                border-radius: 5px;
+                margin-left: 46%;
+                font-size: 25px;
+                color: blue;
+            }
+            button:hover {
+                background-color: lightblue;
+                border-radius: 5px;
+            }
+            input[type="email"] {
+                color: blue;
+            }
+        </style>
+
     </head> 
+
     <body>
-        <form method="post">
+
+        <form method="post">    
+            <h2>E-mail Address</h2>
+            <input type="email" placeholder="example@gmail.com" required/>
+            <h2>Username</h2>
+            <input type="text" placeholder="example username"/>
+            <h2>Password</h2>
+            <input type="password" placeholder="password123"/> 
+            <br /><br />
+            <button>Log In</button> 
+            <!--input type="submit" />    
             <input type="text" />
-            <input type="date" />        
-            <button>This Can Say Whatever You Want</button> 
-            <input type="submit" />    
+            <input type="date" /-->  
         </form>
+
     </body>
+
 </html>
