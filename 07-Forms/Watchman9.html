@@ -12,22 +12,23 @@
             border-style: solid;
             border-color: gray;
             border-radius: 4px;
-            margin: auto;
             display: block;
+            float: left;
         }
         
         input:focus {
             border: 15px, solid, red;
         }
-        
+        input[type="checkbox"] {
+            width: auto;
+        }
         input[type="email"] {
             color: green;
         }
         
         button {
-            width: 60%;
+            width: 40%;
             padding: 10px;
-            margin: auto;
             display: block;
             border-radius: 4px;
         }
@@ -39,8 +40,13 @@
         .small {
             width: 40%;
             padding: 10px;
-            margin: auto;
             display: block;
+        }
+        
+        .date {
+            padding: 10px;
+            display: block;
+            width: 20%;
         }
     </style>
 >>>>>>> 57bab0245521c4d882735ea211186c8c776bfa93
@@ -55,7 +61,7 @@
         <input type="password" placeholder="Type your password"/>
         <br />
         <h2>Date</h2>
-        <input type="date" />
+        <input type="date" class="date" />
         <br />
 <<<<<<< HEAD
         <input type="submit" />
@@ -63,9 +69,11 @@
         <button>Slap that button</button>
 =======
         <h2>Favorite ice cream?</h2>
-        <input type="checkbox" />Vanilla
-        <input type="checkbox" />Chocolate
-        <input type="checkbox" />Other
+        <input class="type" type="checkbox">
+        <br />
+        <input class="type" type="checkbox">
+        <br />
+        <input class="type" type="checkbox">
         <br />
         <button>Submit</button>
         <button class="small">Slap that button</button>
