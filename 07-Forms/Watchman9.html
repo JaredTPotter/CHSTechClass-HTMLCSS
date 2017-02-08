@@ -10,32 +10,33 @@
             border-style: solid;
             border-color: gray;
             border-radius: 4px;
+            margin: auto;
             display: block;
-            float: left;
         }
-        
         input:focus {
             border: 15px, solid, red;
         }
-        
         input[type="checkbox"] {
             width: auto;
         }
-        
         input[type="email"] {
             color: green;
         }
-        
         button {
-            width: 40%;
+            width: 60%;
             padding: 10px;
+            margin: auto;
             display: block;
             border-radius: 4px;
         }
-        
         button:active {
             background-color: blue;
         }
+        .small {
+            width: 40%;
+            padding: 10px;
+            margin: auto;
+            display: block;
         
         .date {
             width: 10%;
@@ -43,6 +44,7 @@
         img {
             width: 40%;
         }
+    
     </style>
 </head>
 
@@ -55,12 +57,11 @@
         <input type="password" placeholder="Type your password" />
         <br />
         <h2>Date</h2>
-        <input type="date" class="date" />
+        <input type="date" />
         <br />
-        <h2></h2>
-        <br />
-        <button>Slap that button</button>
         <button>Submit</button>
+        <br />
+        <button class="small">Slap that button</button>
         <img src="../05-Images/images/Catbread.jpg" />
     </form>
 </body>

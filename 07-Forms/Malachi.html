@@ -1,11 +1,50 @@
 <html>
 	<head>
 		<title>This is something I think.</title>
+			<style>
+			input {
+				width: 45%;
+				margin-left:5%;
+				margin-top:1%;
+				margin-bottom:3%;
+				}		
+			input:focus{
+				border:1 px solid blue;
+				
+			}
+			body {
+				background-image: url('http://wallpapercave.com/wp/taupAqG.jpg');
+				background-size: 100%;
+				background-position: 50%,50%;
+			
+			}
+			h4{
+				color: white;
+				margin-left:5%;
+				margin-right:5%;
+			}
+			</style>
 	</head>
 	<body>
-		<form method="post">
-			<input type="text"/>
+		<form method="get"
+		action="http://www.theuselessweb.com/">
+			<input type="text"
+			placeholder="Name"/>
+			<br />
+			<h4>Date of Birth</h4>
 			<input type="date"/>
+			<br />	
+			<br />	
+			
+			<input type="email"
+			placeholder="email address"/>
+			<br />
+			<br />
+			<input type="password"
+			placeholder="password"/>
+			<br />
+			<br />
+			<input type="submit"/>
 		</form>
 	</body>
 </html>
