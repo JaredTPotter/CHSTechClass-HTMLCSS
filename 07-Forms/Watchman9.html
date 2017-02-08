@@ -13,15 +13,15 @@
             margin: auto;
             display: block;
         }
-        
         input:focus {
             border: 15px, solid, red;
         }
-        
+        input[type="checkbox"] {
+            width: auto;
+        }
         input[type="email"] {
             color: green;
         }
-        
         button {
             width: 60%;
             padding: 10px;
@@ -29,17 +29,22 @@
             display: block;
             border-radius: 4px;
         }
-        
         button:active {
             background-color: blue;
         }
-        
         .small {
             width: 40%;
             padding: 10px;
             margin: auto;
             display: block;
+        
+        .date {
+            width: 10%;
         }
+        img {
+            width: 40%;
+        }
+    
     </style>
 </head>
 
@@ -54,13 +59,10 @@
         <h2>Date</h2>
         <input type="date" />
         <br />
-        <h2>Favorite ice cream?</h2>
-        <input type="checkbox" />Vanilla
-        <input type="checkbox" />Chocolate
-        <input type="checkbox" />Other
-        <br />
         <button>Submit</button>
+        <br />
         <button class="small">Slap that button</button>
+        <img src="../05-Images/images/Catbread.jpg" />
     </form>
 </body>
 
