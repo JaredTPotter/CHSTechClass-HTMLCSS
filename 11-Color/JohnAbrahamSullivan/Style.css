@@ -6,13 +6,12 @@ body {
     padding:5%;
     font-family: 'Segoe UI';
     }
-#title {opacity: 0.3
-
-}
-
-h3 {color: rgb(0,83,127)}
 
 
-#title:hover {
-    opacity: 1;
-}
+h3 {color: rgb(244,230,214)}
+
+.chart {color:#F3BEB5}
+
+.qu {color:#C0ABAA}
+
+
