@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Boxes</title>
+        <style>
+        body {background:blue;}
+        .hidden {
+                visibility: hidden;
+            }
+
+            .gone {
+                display: none;
+            }
+
+            .box { 
+                margin:20px;
+                padding:10px;
+                background: blue;
+                width:33%;
+                height:100px;
+                color:#fff;
+                overflow: hidden;
+
+                border: 1px dashed white;
+            }
+
+            #scrollable {
+                overflow: scroll;
+                border-color: darkblue;
+                border-width: 3px;
+            }
+        </style>
+    </head>
+    <body> 
+        <div class="box">Text </div>
+        <div class="box hidden"> This is box hidden </div>
+        <div class="box">Text Inside </div>
+        <div class="box">Text Inside </div>
+        <div class="box gone"> This is box gone. IDK why its box gone but it is anyways
+        <div class="box"> This is a box. It is a very boxy box
+        <div id="scrollable" class"box"> box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box box 
+        </body>
+    </html>
