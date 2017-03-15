@@ -7,8 +7,8 @@ body {
     font-family: 'Segoe UI';
     }
 
-    a:hover {color: #732B05; }
-    a {color: #331302;}
+    a:hover {color: #331302; }
+    a {color: #732B05;}
 
     button {
                display:block;
@@ -19,12 +19,13 @@ body {
                background:#F4E6D6;
             border-radius: 6;
             border:0;
+            color: #732B05;
                
            }
     button:active {
                background-color: #BEBDC1;}
     button:hover {background-color: #BEBDC1;
-                text:#732B05;
+                color:#331302;
                 }
     .box {background: #F4E6D6;
                  overflow: hidden;
@@ -39,8 +40,12 @@ body {
                  text-align: center;
                  height: 30px;
                 }
-     .box:hover {background: #BEBDC1;}
-     .box:active {background: #BEBDC1;}
+     .box:hover {background: #BEBDC1;
+                }
+     .box:active {background: #BEBDC1;
+                }
+     .box:hover a {color:#331302;}
+     .box:active a {color:#331302;}
 
 
 h3 {color:#A51C04}
