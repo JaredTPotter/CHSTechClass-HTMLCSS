@@ -6,13 +6,25 @@
             <style>
                .box{
                 border-width:3px;
-                border-style: solid;
-                height:150px;
-                border-color:crimson;
-                background-color:goldenrod;
+                border-style: ridge;
+                height:400px;
+                border-color:cornflowerblue;
+                background-color:lightblue;
                 border-radius: 10px;
                 width:300px;
                 text-align:center;
+               }
+               body{
+                   background-color:rgb(60%, 90%, 95%)
+                
+               }
+               ol li ul{
+                display:hidden;
+                transition:1s;
+               }
+               ol li: hover ul{
+                   display:block;
+                   transition:none;
                }
             </style>
          
@@ -21,9 +33,40 @@
       
       <div class="box">
        <ol>
-            <li>Food is good</li>
-            <li>cows are food</li>
-            <li>cows are good</li>
+            <li>Food is good
+                <ul>
+                    <li>Food is amazing</li>
+                    <li>Everyone needs food</li>
+                    <li>Food must be good</li>
+                </ul>
+            </li>
+            <li>cows are food
+                <ul>
+                    <li>Cows are made of meat</li>
+                    <li>Meat is edible</li>
+                    <li>Meat must be food</li>
+                </ul>
+            </li>
+            <li>cows are good
+                <ul>
+                    <li>Food is good
+                      <ul>
+                         <li>Food is amazing</li>
+                        <li>Everyone needs food</li>
+                         <li>Food must be good</li>
+                     </ul>
+                  </li>
+                  <li>cows are food
+                     <ul>
+                         <li>Cows are made of meat</li>
+                         <li>Meat is edible</li>
+                          <li>Meat must be food</li>
+                    </ul>
+                   </li>
+                  <li>cows are good
+                    <ul>JUST TRUST ME</ul>
+                </li>
+                </ul>
             </div>
       </ol>    
     </body>
