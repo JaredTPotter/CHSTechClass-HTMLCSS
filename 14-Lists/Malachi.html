@@ -19,13 +19,16 @@
                 
                }
                ol li ul{
-                display:hidden;
-                transition:1s;
+               display:none;
+                opacity:0;
+                transition:opacity 1s;
                }
-               ol li: hover ul{
+               ol li:hover ul{
                    display:block;
-                   transition:none;
+                   opacity:1;
+                   transition:opacity 1s;
                }
+               
             </style>
          
     </head>
