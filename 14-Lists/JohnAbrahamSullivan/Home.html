@@ -3,12 +3,31 @@
         <title> Westminster Catechism </title>
         <link href="Style.css" type="text/css" rel="stylesheet" />
         <style>
+            /* menu */
+            .box ul {
+                background:#F4E6D6;
+                padding:10px;
+                list-style: none;
+                z-index: 100;
+                position: relative;
+                text-align: left;
+                display: none;
+            }
+
+            .box:hover ul {
+                display: block;
+            }
+
+
            
            input {
                width: 100%;
-               padding: 5px;
+               padding: 10px;
                font-size: 11px;
                font-family:'Segoe UI', sans-serif;
+               border-radius: 6px;
+               -webkit-border-radius: 6px;
+               -moz-border-radius: 6px;
 
            }
            input:focus {
@@ -16,17 +35,19 @@
            }
            input[type="email"] {
                color: #290000;
+               
+
+               border: 0
+               ;
+           }
+           input[type="text"] { 
                border-radius: 6;
-               border: 0;
+            border: 0;
+            color:#290000;
            }
-           input[type="text"] { border-radius: 6;
-           border: 0;
-           color:#290000}
-           
+           #title {text-align:center; color:#A51C04; text-transform:uppercase; word-spacing:0.3em;
            }
-           #title {text-align:center; color:#A51C04; text-transform:uppercase; word-spacing:0.3em; text-shadow: 1px 1px 5px #290000;
-           }
-           #title2 {text-align:center; text-shadow: 0.5px 0.5px 3px #290000;
+           #title2 {text-align:center; font-family: 'Josefin Sans';
            }
            #text {text-align: left;
                   text-indent:15px;
@@ -43,11 +64,12 @@
         <div class="box"> <a href="A Westminster Shorter Catechism.html">The Catechism</a> </div>
         <div class="box"> <a href="Table of Members.html">The Westminster Assembly</a> </div>
         <div class="box"><a href="Westminster Catechism History.html">History</a> </div>
-        <div class="box"><a href="Westminster Catechism Recordings.html">Recordings</a> 
+        <div class="box">Recordings 
             <ul> 
                 <li><a href="Westminster Catechism Recordings.html">Immanuel Presbyterian Church</a></li>
                 <li><a href="Westminster Catechism Recordings.html">Sinclair Ferguson</a></li>
                 <li><a href="Westminster Catechism Recordings.html">Sons of the Underground</a></li>
+            </ul>
                 
         </div>
         
