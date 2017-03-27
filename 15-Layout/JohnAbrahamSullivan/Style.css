@@ -31,12 +31,7 @@ body {
                 }
     .box {background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
-                 margin: 3px;
-                 padding: 10px;
-                 float: left;
-                 width: calc(25% - 26px);
-                 text-align: center;
-                 height: 30px;
+               
                 }
      .box:hover {background: #BEBDC1;
                 }
@@ -44,6 +39,19 @@ body {
                 }
      .box:hover a {color:#331302;}
      .box:active a {color:#331302;}
+      .box ul {
+                background:#F4E6D6;
+                padding:10px;
+                list-style: none;
+                z-index: 100;
+                position: relative;
+                text-align: left;
+                display: none;
+            }
+
+            .box:hover ul {
+                display: block;
+            }
 
 
 h3 {color:#A51C04}
