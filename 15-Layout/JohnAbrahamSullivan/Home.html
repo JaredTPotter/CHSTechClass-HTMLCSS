@@ -39,22 +39,29 @@
                -moz-border-radius: 6px;
 
            }
-           input:focus {
-               border: 2px solid lightseagreen;
-           }
+          
            input[type="email"] {
                color: #290000;
                background-image: url("Email Symbol.jpg");
-               border: 0
+               background-repeat:no-repeat;
+               background-position-x:0px;
+               background-position-y:0%;
+               border: 0px;
                ;
            }
-           input[type="text"] { 
+           input[type="email"] img {height: 100%; width: 100%;}
+           textarea { 
                border-radius: 6;
                height: 100px;
+               width:100%;
                background-image: url("Hand Symbol.png");
-            border: 0;
+                  background-repeat:no-repeat;
+               background-position-x:0px;
+               background-position-y:0%;
+            border: 0px;
             color:#290000;
            }
+           textarea img {height: 100%; width: 100%;}
            #title {text-align:center; color:#A51C04; text-transform:uppercase; word-spacing:0.3em;
            }
            #title2 {text-align:center; font-family: 'Josefin Sans';
@@ -64,6 +71,7 @@
                }
            
           a:link {text-decoration: none;}
+          .box a hover: {background-color:#290000;}
         </style>
     </head>
     <body>
@@ -89,7 +97,7 @@
             <br /> <h3> Contact us: </h3>
             <input type="email" placeholder="e.g. westminstercatechism@outlook.com" />
             <br /> <br />
-            <input type="text" />
+            <textarea> </textarea>
             <br /> <br />
             <button>Contact</button>
 
