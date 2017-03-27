@@ -1,0 +1,44 @@
+<html>
+    <head>
+    <title>Lists or something like that</title>
+    <style>
+          .square{list-style: triangle;}
+          ul li ul {
+             display: none;
+             list-style: disc;
+          }
+          ul li ul li {color:cornflowerblue;}
+          ul li:hover ul {display: block;} 
+          input{
+              padding: 5px;
+              font-size: 17px;
+              background: greenyellow;
+              border: 1px solid deeppink;
+          }
+input[type="submit"]{
+    border-radius: 3px;
+    background: purple;
+    color: aqua;
+}
+input[type="submit"]hover{
+    background: palegreen; 
+}
+
+        </style>
+    </head>
+    <body>
+        <input type="text" />
+        <input type="password" />
+         <input type="submit" />
+         <ul>
+             <li>Here are some list items </li>
+             <li>I can make as many as I want</li>
+             <li>You thought this was the last list item?
+                 <ul>
+                     <li>There are still more!</li>
+                </ul>
+             </li>
+         </ul>
+
+    </body>
+    </html>
