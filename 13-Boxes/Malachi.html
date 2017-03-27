@@ -3,24 +3,33 @@
         <title>
             
         </title>
+         
             <style>
                .box{
                 height:10px;
-                background-color:darkblue;
+                background-color:lightblue;
                 width:10px;
                 text-align:center;
                 margin:0px;
                 float:left;
                 transition:background 5s;
+                z-index:1;
+                position:unset;
+                
                }
                .box:hover{
-                background-color:orangered;
-                transition:none;
-                
-                 
+                background-color:white;
+                transition:none;   
                }
-            
-         
+               .bkgrcolor{
+                   z-index:2;
+                   position:absolute;
+                   background-color:lightcyan;
+                   border-color:cadetblue
+               }
+               .bkgrcolor:active{
+                
+               }
                html, body{
                    overflow:hidden;
                }
@@ -28,7 +37,13 @@
          
     </head>
     <body>
-
+        <button class="bkgrcolor">Turn background black</button>
+     
+     
+     
+     
+     
+     
        <div class="box"></div> 
        <div class="box"></div>  
        <div class="box"></div> 
