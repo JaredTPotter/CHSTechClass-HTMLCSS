@@ -1,0 +1,67 @@
+<html>
+    <head> 
+        <title> Layout </title>
+        <style>
+        body{
+        background-color: mediumpurple;
+        padding: 0px;
+        margin: 0px; }
+        #menu a {
+            font-size: 45px;
+            text-decoration: none;
+            color: aquamarine;
+            font-family: serif;
+            font-weight: bolder;
+            padding: 10px 20px ;
+            display: block;  
+        } 
+
+       #menu a :hover {
+           color: aquamarine; 
+           background: lightgray;}
+
+        #menu, #menu ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;  
+        }
+        #menu li{
+            float: left;
+
+        }
+        #menu ul li{
+            float: none;
+
+        }
+        #menu ul {
+           display: none;
+           position: absolute;
+           background: lightgray;
+
+        }
+        #menu li:hover ul {
+            display: block;
+        }
+        </style>
+    </head>
+    <body>
+  <ul id="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a>
+                <ul>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                </ul>
+            </li>
+            <li><a href="platform.html">Platform</a>
+                <ul>
+                    <li><a href="overview.html">Overview</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="downloads.html">Downloads</a>
+                </ul>
+            </li>
+            <li><a href="library.html">Library</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </body>
+</html>
