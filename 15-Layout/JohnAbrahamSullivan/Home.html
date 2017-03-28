@@ -2,17 +2,21 @@
     <head>
         <title> Westminster Catechism </title>
         <link href="Style.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet"> 
         <style>
             /* menu */
               .box {background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
-                 margin: 3px;
+                 margin: 0px;
                  padding: 10px;
                  float: left;
                  width: calc(25% - 26px);
                  text-align: center;
                  height: 30px;
                 }
+                 .box a {
+                 padding: 10px; display:block;}
+                 
             .box ul {
                 background:#F4E6D6;
                 padding:10px;
@@ -57,25 +61,28 @@
                   background-repeat:no-repeat;
                background-position-x:0px;
                background-position-y:0%;
+               padding:15px 0px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             border: 0px;
             color:#290000;
            }
            textarea img {height: 100%; width: 100%;}
-           #title {text-align:center; color:#A51C04; text-transform:uppercase; word-spacing:0.3em;
+           #title {text-align:center; color:#A51C04; text-transform:uppercase; word-spacing:0.3em; font-family:'Raleway'; font-size: 20pt;
            }
-           #title2 {text-align:center; font-family: 'Josefin Sans';
+           #title2 {text-align:center; font-family: 'Josefin Sans'; font-size: 15pt;
            }
            #text {text-align: left;
                   text-indent:15px;
                }
            
           a:link {text-decoration: none;}
-          .box a hover: {background-color:#290000;}
+          .box a:hover {background-color:#BEBDC1;
+          display:block;}
         </style>
     </head>
     <body>
-        <h1 id="title"> Westminster Shorter Catechism</h1>
-        <h3 id="title2"> <i> One of the most biblical statements of faith in the world </i> </h3> <hr/>
+        <div id="title"> Westminster Shorter Catechism</div>
+        <div id="title2"> <i> One of the most biblical statements of faith in the world </i> </div> <hr/>
         
          
         <div class="box"> <a href="A Westminster Shorter Catechism.html">The Catechism</a> </div>

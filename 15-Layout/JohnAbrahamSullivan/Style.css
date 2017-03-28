@@ -4,9 +4,9 @@ body {
     background-image: url('WestminsterAssembly.jpg');
     background-size: 100%;
     padding:5%;
-    font-family: 'Segoe UI';
+    font-family: 'Raleway';
     }
-
+ 
     a:hover {color: #331302; }
     a {color: #732B05;}
 
@@ -59,6 +59,7 @@ h3 {color:#A51C04}
 .chart {color:#590F02}
 
 .qu {color:rgb(217,55,32)}
+
 
 
 
