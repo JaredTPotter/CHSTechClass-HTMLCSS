@@ -47,6 +47,7 @@ body {
                 position: relative;
                 text-align: left;
                 display: none;
+                margin-top: 0;
             }
 
             .box:hover ul {
