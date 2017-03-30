@@ -54,6 +54,21 @@ body {
                 display: block;
             }
 
+             .box:hover {background: #BEBDC1;
+                }
+     .home:active {background: #BEBDC1;
+                }
+     .home:hover {background: #BEBDC1;}
+     .home:hover a {color:#331302;}
+     .home:active a {color:#331302;}
+     .next:active {background: #BEBDC1;
+                }
+     .next:hover {background: #BEBDC1;}
+     .next:hover a {color:#331302;}
+     .next:active a {color:#331302;}
+      
+
+
 
 h3 {color:#A51C04}
 
