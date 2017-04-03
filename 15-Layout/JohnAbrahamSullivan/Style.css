@@ -1,12 +1,12 @@
 
 body {
     background-color: black;
-    background-image: url('WestminsterAssembly.jpg');
+    background-image: url('Images/WestminsterAssembly.jpg');
     background-size: 100%;
     padding:5%;
-    font-family: 'Segoe UI';
+    font-family: 'Raleway';
     }
-
+ 
     a:hover {color: #331302; }
     a {color: #732B05;}
 
@@ -31,12 +31,7 @@ body {
                 }
     .box {background: #F4E6D6;
                  border: 0px dotted lightgoldenrodyellow;
-                 margin: 3px;
-                 padding: 10px;
-                 float: left;
-                 width: calc(25% - 26px);
-                 text-align: center;
-                 height: 30px;
+               
                 }
      .box:hover {background: #BEBDC1;
                 }
@@ -44,6 +39,35 @@ body {
                 }
      .box:hover a {color:#331302;}
      .box:active a {color:#331302;}
+      .box ul {
+                background:#F4E6D6;
+                padding:10px;
+                list-style: none;
+                z-index: 100;
+                position: relative;
+                text-align: left;
+                display: none;
+                margin-top: 0;
+            }
+
+            .box:hover ul {
+                display: block;
+            }
+
+             .box:hover {background: #BEBDC1;
+                }
+     .home:active {background: #BEBDC1;
+                }
+     .home:hover {background: #BEBDC1;}
+     .home:hover a {color:#331302;}
+     .home:active a {color:#331302;}
+     .next:active {background: #BEBDC1;
+                }
+     .next:hover {background: #BEBDC1;}
+     .next:hover a {color:#331302;}
+     .next:active a {color:#331302;}
+      
+
 
 
 h3 {color:#A51C04}
@@ -51,6 +75,7 @@ h3 {color:#A51C04}
 .chart {color:#590F02}
 
 .qu {color:rgb(217,55,32)}
+
 
 
 
