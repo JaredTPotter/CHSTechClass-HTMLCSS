@@ -21,14 +21,36 @@
                 background-color:white;
                 transition:none;   
                }
-               .menu{
-                   z-index:2;
-                   margin:none;
-                   text-decoration:none;
+               #menu{
                    list-style:none;
                    display:block;
+                   margin:0;
+                   padding:0;
+
                }
-               
+               #menu li{
+                   float:left;
+               }
+               #menu a{
+                text-decoration:none;  
+                font-size:23px;
+                color:rgb(69,125,191);
+                padding:38px;
+               }
+               #menu li ul{
+                   display:none;
+                   list-style:none;
+                   position:absolute;
+                   padding:0;
+                   margin:0;
+               }
+               #menu li:hover ul{
+                display:block;
+                transition:1s;
+               }
+               #menu li ul li{
+                   float:none;
+               }
                html, body{
                    overflow:hidden;
                }
@@ -36,7 +58,7 @@
          
     </head>
     <body>
-       
+     <a href="cloud.png" </a>  
      <ul id="menu">
             <li><a href="home.html">Cloud Town</a></li>
             <li><a href="about.html">Cloud Nine</a>
